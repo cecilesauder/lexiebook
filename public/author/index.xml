@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Author on Lexie BABYBOOK</title>
+    <link>/author/</link>
+    <description>Recent content in Author on Lexie BABYBOOK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017-2018. All rights reserved.</copyright>
+    
+	<atom:link href="/author/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cecile</title>
+      <link>/author/cecile/</link>
+      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/author/cecile/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

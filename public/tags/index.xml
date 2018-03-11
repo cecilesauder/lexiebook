@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Lexie BABYBOOK</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Lexie BABYBOOK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017-2018. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 18 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Alix</title>
+      <link>/tags/alix/</link>
+      <pubDate>Tue, 18 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/alix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chat</title>
+      <link>/tags/chat/</link>
+      <pubDate>Tue, 18 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/chat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dents</title>
+      <link>/tags/dents/</link>
+      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dents/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grossesse</title>
+      <link>/tags/grossesse/</link>
+      <pubDate>Mon, 24 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/grossesse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mamie Véro</title>
+      <link>/tags/mamie-v%C3%A9ro/</link>
+      <pubDate>Tue, 18 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mamie-v%C3%A9ro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maternité</title>
+      <link>/tags/maternit%C3%A9/</link>
+      <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/maternit%C3%A9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Motricite</title>
+      <link>/tags/motricite/</link>
+      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/motricite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neige</title>
+      <link>/tags/neige/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/neige/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Premieres</title>
+      <link>/tags/premieres/</link>
+      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/premieres/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
