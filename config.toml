@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://lexie.netlify.com"
 languageCode = "en-us"
 title = "Lexie BABYBOOK"
 theme = "blackburn"
