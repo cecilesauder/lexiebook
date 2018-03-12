@@ -75,6 +75,7 @@ orient_all <- function( files ){
   if( missing(files) ){
     files <- list.files( "static/img", full.names = TRUE, recursive = TRUE, pattern = "(JPG|jpg)$")
   }
+  files <- files %>% keep(function(x) length(read_exif(x))==3)
   message( "reorientation")
   pb <- progress_bar$new(total = length(files))
   orientations <- map_int( files, ~{
@@ -109,6 +110,11 @@ clean_all <- function( files ){
 }
 
 map( files, ~{
-  read_exif(.x)
+  if(length(read_exif(.x))==3){
+    read_exif(.x)
+  }
+
 }
 )
+files <- files %>% keep(function(x) length(read_exif(x))==3)
+ 
