@@ -7,11 +7,6 @@ output: html_document
 
 
 
-## Tes grands-parents, ta tante Perle et son chien Maya viennent te voir à Montpellier
-
-
-## Premières vacances à Arcachon avec la visite de ton grand-père Jehan-Phi et de Domi
-
 ## Ta soeur te calme en te jouant de la guitare
 Quand tu pleures, Alix sort sa guitare et te joue Greensleeves et d'autres morceaux, ça marche très bien
 
