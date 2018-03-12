@@ -30,6 +30,9 @@
   <link rel="stylesheet" href="/css/blackburn.css">
   
   
+  <link rel="stylesheet" href="/lib/Gallery/css/blueimp-gallery.min.css">
+  
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   
   
@@ -255,6 +258,34 @@
   <p>Le 24 octobre, on était chez ton grand-père Jean-Philippe avec Alix, et j&rsquo;avais dit à ton papa, bon dès que je me réveille je fais le test de grossesse (qu&rsquo;il m&rsquo;avait offert pour nos 3 mois), j&rsquo;ai déjà quelques jours de retard cette fois ça doit être la bonne. A 5h du matin je me réveille pour aller faire pipi et j&rsquo;emmène donc le test avec moi aux toilettes, et du coup, après avoir attendu les quelques minutes je reviens dans la chambre et réveille ton papa :)
 Et oui, te voilà dans mon ventre, pour notre plus grand bonheur. On l&rsquo;a dit a ton grand-père et Dominique au petit dej&rsquo;, ils étaient très contents eux aussi, et ta soeur l&rsquo;a compris dans l&rsquo;après-midi quand j&rsquo;en discutais avec la voisine. Alix : &ldquo;Comment ça t&rsquo;es en grossesse ? Oh non moi je veux pas de petit frère ou de petite soeur&rdquo;. On lui a précisé que de toute façon c&rsquo;était pas elle qui décidait ce genre de chose, et elle a dit, bon ok mais alors j&rsquo;espère que ce sera une petite soeur&hellip;</p>
 
+  
+  
+
+<h3> Gallery : </h3>
+<div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+<div id="links">
+
+  
+  
+  
+  
+    
+        <a href="/img/2016-10-24/header.jpg"></a>
+    
+  
+
+</div>
+
+
+
 
   
 <div class="prev-next-post pure-g">
@@ -283,25 +314,6 @@ Et oui, te voilà dans mon ventre, pour notre plus grand bonheur. On l&rsquo;a d
 
 
 
-  
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-
-(function() {
-    
-    
-    if (window.location.hostname == "localhost")
-        return;
-
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    var disqus_shortname = 'Your Disqus shortname';
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
 
 </div>
 
@@ -323,6 +335,21 @@ Et oui, te voilà dans mon ventre, pour notre plus grand bonheur. On l&rsquo;a d
 
 
 
+
+
+
+
+            
+            <script src="/lib/Gallery/js/blueimp-gallery.min.js"></script>
+    
+            <script>
+            blueimp.Gallery(
+            document.getElementById('links').getElementsByTagName('a'),{
+                container: '#blueimp-gallery-carousel',
+                carousel: true
+            });
+            </script>    
+            
 
 
 </body>

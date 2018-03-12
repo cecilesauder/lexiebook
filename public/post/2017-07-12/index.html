@@ -30,6 +30,9 @@
   <link rel="stylesheet" href="/css/blackburn.css">
   
   
+  <link rel="stylesheet" href="/lib/Gallery/css/blueimp-gallery.min.css">
+  
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   
   
@@ -254,6 +257,86 @@
 Une fois à la maternité, surprise à la porte habituelle, l&rsquo;entrée de nuit ne se fait pas là, un papier dit de faire le tour du bâtiment, aïe aïe aïe, le tour d&rsquo;un énorme bâtiment avec des contractions c&rsquo;est pas évident ! Mais bon on a fait le tour, fini par trouver une porte ouverte, et quelqu&rsquo;un pour nous indiquer où aller, et nous voilà dans la salle d&rsquo;accouchement, box 2 :)
 Il est 2h du matin et au premier examen du col, dialtation à <sup>3</sup>&frasl;<sub>4</sub>. A 4h du matin, la peridurale était posée et maman avait moins mal, du coup on a pu se reposer entre les examens des sage femmes pour voir si le travail avançait. Et il avançait, mais lentement, très lentement, toute la nuit et une bonne partie de la journée est passée, papa est allé se chercher à manger, maman pouvait pas manger pendant le travail et de toute façon elle avait déjà bien du mal à digérer le resto libanais à cause des contractions. Puis l&rsquo;après-midi, jusqu&rsquo;à ce que le col de maman (ta porte de sortie) soit bien ouvert pour que tu puisses passer. Les contractions n&rsquo;étaient vraiment plus très fortes à ce moment là, mais on était très pressés de te voir alors maman a poussé bien fort quelques fois. Quand ta tête est apparue, une des sage femmes, qui était plutôt drôle, a proposé de te faire un shampoing, tu as donc eu ton premier shampoing, ça nous a beaucoup fait rire, et penser à ta soeur qui n&rsquo;aime pas trop faire les shampoings.  Puis tu as vite passé les 3 étapes du  bassin pour te retrouver dans les bras de maman qui était aux anges. Papa a coupé ton cordon, puis on a pu te contempler et prendre en photo, tu étais déjà magnifique. 60 kg, 34 cm de tour de tête, et 50 cm, parfaite :)</p>
 
+  
+  
+
+<h3> Gallery : </h3>
+<div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+<div id="links">
+
+  
+  
+  
+  
+    
+        <a href="/img/2017-07-12/IMG_0418.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-12/IMG_0428.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-12/IMG_0430.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-12/IMG_0434.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-12/IMG_0435.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-12/IMG_0440.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-12/IMG_0444.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-12/IMG_0447.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-12/IMG_0448.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-12/IMG_0449.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-12/IMG_0452.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-12/IMG_0454.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-12/IMG_0455.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-12/header.jpg"></a>
+    
+  
+
+</div>
+
+
+
 
   
 <div class="prev-next-post pure-g">
@@ -288,25 +371,6 @@ Il est 2h du matin et au premier examen du col, dialtation à <sup>3</sup>&frasl
 
 
 
-  
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-
-(function() {
-    
-    
-    if (window.location.hostname == "localhost")
-        return;
-
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    var disqus_shortname = 'Your Disqus shortname';
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
 
 </div>
 
@@ -328,6 +392,21 @@ Il est 2h du matin et au premier examen du col, dialtation à <sup>3</sup>&frasl
 
 
 
+
+
+
+
+            
+            <script src="/lib/Gallery/js/blueimp-gallery.min.js"></script>
+    
+            <script>
+            blueimp.Gallery(
+            document.getElementById('links').getElementsByTagName('a'),{
+                container: '#blueimp-gallery-carousel',
+                carousel: true
+            });
+            </script>    
+            
 
 
 </body>

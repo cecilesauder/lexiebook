@@ -30,6 +30,9 @@
   <link rel="stylesheet" href="/css/blackburn.css">
   
   
+  <link rel="stylesheet" href="/lib/Gallery/css/blueimp-gallery.min.css">
+  
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   
   
@@ -258,6 +261,118 @@
 
   <p>Mardi 18 juillet a été un jour plein de premières fois pour toi. D&rsquo;abord mamie Véro, la maman de papa, et Thierry son compagnon sont venus te voir, et t&rsquo;ont ramené 3 gros cartons d&rsquo;habits et un joli doudou avec des grandes jambes et des grands bras, puis ta grande-soeur Alix, qui rentrait juste de vacances à Marseille et Embrun nous a fait la surprise de venir te voir aussi. Mamie Véro était bien contente de voir ses 2 petites filles à la fois. Pendant que Thierry allait chercher les cartons, monsieur Tigrou en a profité pour se faire la malle. Quel coquin ! On a mangé avec tous les 5 pendant que tu te reposais, puis après manger mamie Véro et Thierry ont repris la route pour Dauphin et on est allés se balader avec Alix en ville, ta première balade à poussette, et on a pris une glace en ville (enfin les grands parce que toi tu n&rsquo;as pas encore le droit bien sûr). On a continué de chercher Tigrou en allant faire des tours dans l&rsquo;impasse et en regardant sous les voitures mais non, pas de Tigrou. Maman a fini par le retrouver à la nuit tombée, après une nième recherche sous les voitures de l&rsquo;impasse, en rentrant dans l&rsquo;immeuble en secouant les croquette, qui voilà qui remontait tranquillement l&rsquo;escalier de la cave&hellip; Tigrou !</p>
 
+  
+  
+
+<h3> Gallery : </h3>
+<div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+<div id="links">
+
+  
+  
+  
+  
+    
+        <a href="/img/2017-07-18/IMG_0619.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-18/IMG_0620.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-18/IMG_0623.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-18/IMG_0624.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-18/IMG_0626.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-18/IMG_0628.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-18/IMG_0629.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-18/IMG_0632.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-18/IMG_0635.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-18/IMG_0636.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-18/IMG_0638.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-18/IMG_0639.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-18/IMG_0661.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-18/IMG_0664.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-18/IMG_0666.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-18/IMG_0668.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-18/IMG_0679.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-18/IMG_0692.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-18/IMG_0697.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-18/IMG_0699.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-18/IMG_0700.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-18/header.jpg"></a>
+    
+  
+
+</div>
+
+
+
 
   
 <div class="prev-next-post pure-g">
@@ -292,25 +407,6 @@
 
 
 
-  
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-
-(function() {
-    
-    
-    if (window.location.hostname == "localhost")
-        return;
-
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    var disqus_shortname = 'Your Disqus shortname';
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
 
 </div>
 
@@ -332,6 +428,21 @@
 
 
 
+
+
+
+
+            
+            <script src="/lib/Gallery/js/blueimp-gallery.min.js"></script>
+    
+            <script>
+            blueimp.Gallery(
+            document.getElementById('links').getElementsByTagName('a'),{
+                container: '#blueimp-gallery-carousel',
+                carousel: true
+            });
+            </script>    
+            
 
 
 </body>

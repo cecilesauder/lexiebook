@@ -30,6 +30,9 @@
   <link rel="stylesheet" href="/css/blackburn.css">
   
   
+  <link rel="stylesheet" href="/lib/Gallery/css/blueimp-gallery.min.css">
+  
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   
   
@@ -254,6 +257,90 @@
 
   <p>Grâce à mamie Véro qui nous a rapporté plein de cartons d&rsquo;habits, ainsi qu&rsquo;aux cadeaux qu&rsquo;on nous a fait pour toi, maman peut t&rsquo;habiller de façon très varié, voici un petit panel de tes jolies tenues d&rsquo;août.</p>
 
+  
+  
+
+<h3> Gallery : </h3>
+<div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+<div id="links">
+
+  
+  
+  
+  
+    
+        <a href="/img/2017-08-20/42.jpg"></a>
+    
+  
+    
+        <a href="/img/2017-08-20/45.jpg"></a>
+    
+  
+    
+        <a href="/img/2017-08-20/IMG_1161.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-20/IMG_1170.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-20/IMG_1171.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-20/IMG_1238.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-20/IMG_1240.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-20/IMG_1241.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-20/IMG_1243.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-20/IMG_1344.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-20/IMG_1503648940478.jpg"></a>
+    
+  
+    
+        <a href="/img/2017-08-20/IMG_20170827_135957.jpg"></a>
+    
+  
+    
+        <a href="/img/2017-08-20/IMG_20170902_180655.jpg"></a>
+    
+  
+    
+        <a href="/img/2017-08-20/IMG_20170915_155156.jpg"></a>
+    
+  
+    
+        <a href="/img/2017-08-20/header.jpg"></a>
+    
+  
+
+</div>
+
+
+
 
   
 <div class="prev-next-post pure-g">
@@ -288,25 +375,6 @@
 
 
 
-  
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-
-(function() {
-    
-    
-    if (window.location.hostname == "localhost")
-        return;
-
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    var disqus_shortname = 'Your Disqus shortname';
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
 
 </div>
 
@@ -328,6 +396,21 @@
 
 
 
+
+
+
+
+            
+            <script src="/lib/Gallery/js/blueimp-gallery.min.js"></script>
+    
+            <script>
+            blueimp.Gallery(
+            document.getElementById('links').getElementsByTagName('a'),{
+                container: '#blueimp-gallery-carousel',
+                carousel: true
+            });
+            </script>    
+            
 
 
 </body>

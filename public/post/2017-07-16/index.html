@@ -30,6 +30,9 @@
   <link rel="stylesheet" href="/css/blackburn.css">
   
   
+  <link rel="stylesheet" href="/lib/Gallery/css/blueimp-gallery.min.css">
+  
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   
   
@@ -254,6 +257,94 @@
 Une fois à la maison, tu as été un ange, pas un cri, t&rsquo;as laissé tes parents faire des gros dodos de 3h. Maman a anticipé tes fringales et papa a changé tes couches qui commence à être bien rempli. Caca jaune et granuleux avait dit les sages femmes, c&rsquo;est exactement ça :D On dirait de la moutarde à l&rsquo;ancienne&hellip;
 Le lendemain, les 2 filles airbnbs belges qui étaient là ces 2 derniers jours t&rsquo;ont offert un super hochet hyppopotame très mignon et très doux.</p>
 
+  
+  
+
+<h3> Gallery : </h3>
+<div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+<div id="links">
+
+  
+  
+  
+  
+    
+        <a href="/img/2017-07-16/IMG_0570.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-16/IMG_0579.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-16/IMG_0580.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-16/IMG_0582.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-16/IMG_0585.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-16/IMG_0587.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-16/IMG_0595.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-16/IMG_0597.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-16/IMG_0603.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-16/IMG_0607.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-16/IMG_0608.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-16/IMG_0610.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-16/IMG_0615.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-16/IMG_0617.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-07-16/IMG_20170716_222143.jpg"></a>
+    
+  
+    
+        <a href="/img/2017-07-16/header.jpg"></a>
+    
+  
+
+</div>
+
+
+
 
   
 <div class="prev-next-post pure-g">
@@ -288,25 +379,6 @@ Le lendemain, les 2 filles airbnbs belges qui étaient là ces 2 derniers jours 
 
 
 
-  
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-
-(function() {
-    
-    
-    if (window.location.hostname == "localhost")
-        return;
-
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    var disqus_shortname = 'Your Disqus shortname';
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
 
 </div>
 
@@ -328,6 +400,21 @@ Le lendemain, les 2 filles airbnbs belges qui étaient là ces 2 derniers jours 
 
 
 
+
+
+
+
+            
+            <script src="/lib/Gallery/js/blueimp-gallery.min.js"></script>
+    
+            <script>
+            blueimp.Gallery(
+            document.getElementById('links').getElementsByTagName('a'),{
+                container: '#blueimp-gallery-carousel',
+                carousel: true
+            });
+            </script>    
+            
 
 
 </body>

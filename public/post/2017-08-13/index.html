@@ -30,6 +30,9 @@
   <link rel="stylesheet" href="/css/blackburn.css">
   
   
+  <link rel="stylesheet" href="/lib/Gallery/css/blueimp-gallery.min.css">
+  
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   
   
@@ -258,6 +261,134 @@
 
 <p>Et le soir, Nico nous a fait une tartiflette chez tata Marie.</p>
 
+  
+  
+
+<h3> Gallery : </h3>
+<div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+<div id="links">
+
+  
+  
+  
+  
+    
+        <a href="/img/2017-08-13/IMG_1091.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1094.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1096.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1100.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1102.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1103.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1104.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1105.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1108.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1109.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1110.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1112.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1115.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1116.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1117.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1118.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1125.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1128.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1132.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1134.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1137.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1142.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1146.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1147.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/IMG_1148.JPG"></a>
+    
+  
+    
+        <a href="/img/2017-08-13/header.jpg"></a>
+    
+  
+
+</div>
+
+
+
 
   
 <div class="prev-next-post pure-g">
@@ -292,25 +423,6 @@
 
 
 
-  
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-
-(function() {
-    
-    
-    if (window.location.hostname == "localhost")
-        return;
-
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    var disqus_shortname = 'Your Disqus shortname';
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
 
 </div>
 
@@ -332,6 +444,21 @@
 
 
 
+
+
+
+
+            
+            <script src="/lib/Gallery/js/blueimp-gallery.min.js"></script>
+    
+            <script>
+            blueimp.Gallery(
+            document.getElementById('links').getElementsByTagName('a'),{
+                container: '#blueimp-gallery-carousel',
+                carousel: true
+            });
+            </script>    
+            
 
 
 </body>
