@@ -1,5 +1,7 @@
 .header {
-  font-family: "Raleway", Helvetica, Arial, sans-serif
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  background-image: url("/img/hibou.jpg");
+
 }
 
 a {
@@ -26,6 +28,8 @@ a:visited {
 article > footer {
   text-align: right;
 }
+
+
 
 .prev-next-post {
   margin-top: 2em;
@@ -62,6 +66,12 @@ article > footer {
   font-size: 0.9em;
 }
 
+.content {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
 i {
   display: inline-block;
   margin-right: 0.2em;
@@ -75,3 +85,14 @@ i {
 .pagination a {
   color: #265778;
 }
+
+.mini_image{
+height:250px;
+line-height:250px;
+
+}
+
+.mini_image img{
+  vertical-align:middle;
+}
+
