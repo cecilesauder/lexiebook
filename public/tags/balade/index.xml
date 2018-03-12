@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Balade on Lexie BABYBOOK</title>
+    <link>/tags/balade/</link>
+    <description>Recent content in Balade on Lexie BABYBOOK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017-2018. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 30 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/balade/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Aix en provence</title>
+      <link>/post/2017-08-30/</link>
+      <pubDate>Wed, 30 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2017-08-30/</guid>
+      <description>Papa avait un séminaire ThinkR avec ses collègues, Diane, Vincent et Colin, alors on l&amp;rsquo;a accompagné pour aller se balader à Aix en Provence.</description>
+    </item>
+    
+    <item>
+      <title>Balade au zoo</title>
+      <link>/post/2017-08-13/</link>
+      <pubDate>Sun, 13 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2017-08-13/</guid>
+      <description>On est allés se promener au zoo avec des copains de Dijon de maman. Il y avait Marie, Stéphanie, Nico, Didine et le petit Théo, ainsi que Zizou, Mouna et leur petit, un mois plus grand que toi. Il faisait très chaud ce jour là ! On a pique-niquer là bas, c&amp;rsquo;était sympa.
+Et le soir, Nico nous a fait une tartiflette chez tata Marie.</description>
+    </item>
+    
+  </channel>
+</rss>

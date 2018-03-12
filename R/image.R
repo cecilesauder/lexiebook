@@ -101,20 +101,8 @@ orient_all <- function( files ){
   
 }
 
-clean_all <- function( files ){
-  if( missing(files) ){
-    files <- list.files( "static/img", full.names = TRUE, recursive = TRUE, pattern = "(JPG|jpg)$")
-  }
-  redim_all(files)
-  orient_all(files)
-}
 
-map( files, ~{
-  if(length(read_exif(.x))==3){
-    read_exif(.x)
-  }
 
-}
-)
-files <- files %>% keep(function(x) length(read_exif(x))==3)
+
+
  

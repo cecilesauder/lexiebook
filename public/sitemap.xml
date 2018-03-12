@@ -18,6 +18,41 @@
   </url>
   
   <url>
+    <loc>/post/2017-09-21/</loc>
+    <lastmod>2017-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017-09-10/</loc>
+    <lastmod>2017-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017-08-30/</loc>
+    <lastmod>2017-08-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017-08-20/</loc>
+    <lastmod>2017-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017-08-13/</loc>
+    <lastmod>2017-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017-08-02/</loc>
+    <lastmod>2017-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017-07-31/</loc>
+    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2017-07-18/</loc>
     <lastmod>2017-07-18T00:00:00+00:00</lastmod>
   </url>
@@ -109,7 +144,25 @@
   </url>
   
   <url>
+    <loc>/tags/arcachon/</loc>
+    <lastmod>2017-09-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/author/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bain/</loc>
+    <lastmod>2017-08-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/balade/</loc>
+    <lastmod>2017-08-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -126,14 +179,32 @@
   </url>
   
   <url>
+    <loc>/tags/copains/</loc>
+    <lastmod>2017-08-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/dents/</loc>
     <lastmod>2018-03-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>/tags/grands-parents/</loc>
+    <lastmod>2017-09-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/grossesse/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/habits/</loc>
+    <lastmod>2017-08-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -151,7 +222,7 @@
   
   <url>
     <loc>/author/maman/</loc>
-    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -180,6 +251,12 @@
   </url>
   
   <url>
+    <loc>/tags/peluche/</loc>
+    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/post/</loc>
     <lastmod>2018-03-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -192,8 +269,32 @@
   </url>
   
   <url>
+    <loc>/tags/premi%C3%A8res/</loc>
+    <lastmod>2017-09-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/soeur/</loc>
+    <lastmod>2017-09-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/star/</loc>
+    <lastmod>2017-08-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
     <lastmod>2017-07-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tata/</loc>
+    <lastmod>2017-08-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -203,8 +304,26 @@
   </url>
   
   <url>
+    <loc>/tags/ukulele/</loc>
+    <lastmod>2017-09-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/vomito/</loc>
+    <lastmod>2017-09-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/voyage/</loc>
-    <lastmod>2017-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/zoo/</loc>
+    <lastmod>2017-08-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
