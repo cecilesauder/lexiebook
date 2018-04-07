@@ -100,9 +100,3 @@ orient_all <- function( files ){
   message(glue("J'ai réorienté {length(files)} fichiers"))
   
 }
-
-
-
-
-
- 
